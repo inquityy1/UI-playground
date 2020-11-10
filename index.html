@@ -8,28 +8,11 @@
 	<style>	
 	
 		.container {
+			height: 300px;
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
+			align-items: flex-start;
 		}
-		
-		@media screen and (min-width: 576px){
-			.container {
-				display: flex;
-				flex-direction: row;
-			}
-			
-			.box-1 {
-			order: 1;
-			}
-		
-			.box-4 {
-				order: 2;
-			}
-		
-			.box-5 {
-				order: -1;
-			}
-			
 		
 		
 			
@@ -64,7 +47,8 @@
 			
 		}
 		
-		/*.container1 {
+		/*main axis/cross axis
+		.container1 {
 			display: flex;
 			flex-direction: column;
 			border: 5px solid blue;
@@ -72,7 +56,35 @@
 			flex-wrap: wrap;
 			align-items: center;
 			justify-content: center;
-		}-main axis/cross axis*/
+		}*/
+		
+		/*@media and orders
+		@media screen and (min-width: 576px){
+			.container {
+				display: flex;
+				flex-direction: row;
+			}
+			
+			.box-1 {
+				order: 1;
+			}
+		
+			.box-4 {
+				order: 2;
+			}
+		
+			.box-5 {
+				order: -1;
+			}*/
+			
+			/*align-self
+			.box-3 {
+				align-self: stretch;
+			}
+		
+			.box-5 {
+				align-self: flex-end;
+			}*/
 		
 	</style>
 
