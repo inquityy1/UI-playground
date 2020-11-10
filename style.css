@@ -28,3 +28,8 @@
 .box-5 {
 	background: #51CB20;
 }
+
+.generic {
+	background: blue;
+	border: 1px solid white;
+}
